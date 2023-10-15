@@ -49,6 +49,7 @@ a {
 #about {
   position: relative;
   padding: 50px 80px;
+  height: 100%;
 }
 
 .logo-img {
@@ -153,4 +154,76 @@ a {
 
 .icon {
   font-size: 20px;
+  color: #39ff14;
+}
+
+.skillset {
+  padding: 5px 30px;
+}
+
+.skillset h4 {
+  margin: 0;
+  padding: 5px;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 15px;
+  width: 100%;
+}
+
+.progress-value1 {
+  animation: load1 5s normal forwards;
+  box-shadow: 0 10px 40px -10px #39ff14;
+  border-radius: 100px;
+  background: #39ff14;
+  height: 15px;
+  width: 0;
+}
+.progress-value2 {
+  animation: load2 5s normal forwards;
+  box-shadow: 0 10px 40px -10px #39ff14;
+  border-radius: 100px;
+  background: #39ff14;
+  height: 15px;
+  width: 0;
+}
+.progress-value3 {
+  animation: load3 5s normal forwards;
+  box-shadow: 0 10px 40px -10px #39ff14;
+  border-radius: 100px;
+  background: #39ff14;
+  height: 15px;
+  width: 0;
+}
+
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
 }
