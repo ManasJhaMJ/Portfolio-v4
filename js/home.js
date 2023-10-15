@@ -25,8 +25,8 @@ var ball = {
   alpha_f = 0.03,
   alpha_phase = 0,
   // Line
-  link_line_width = 0.8,
-  dis_limit = 260,
+  link_line_width = 0.6,
+  dis_limit = 280,
   add_mouse_point = true,
   mouse_in = false,
   mouse_ball = {
