@@ -3,7 +3,7 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Uni Sans Regular", sans-serif;
 }
 html,
 body {
@@ -18,11 +18,19 @@ body {
 canvas {
   background-color: #000;
   position: absolute;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+hr {
+  margin: auto !important;
+  opacity: 1;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 #navbar {
@@ -49,12 +57,12 @@ a {
 #about {
   position: relative;
   padding: 0;
+  padding-top: 150px;
 }
 
 #projects {
   position: relative;
-  padding: 50px 80px;
-  height: 1700px;
+  padding: 150px 80px;
   width: 100%;
 }
 
@@ -123,27 +131,27 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
-.col {
+.col1 {
   flex: 1;
-  margin: 0 10px;
+  padding: 0 50px;
 }
 
-.col h2 {
+.col1 h2 {
   text-align: center;
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-  .col {
+  .col1 {
     flex-basis: 50%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .col {
+  .col1 {
     flex-basis: 100%;
   }
 }
@@ -172,7 +180,8 @@ a {
 }
 
 .skillset hr {
-  margin: 30px 100px;
+  margin-top: 30px !important;
+  margin-bottom: 25px !important;
 }
 
 .progress {
@@ -300,4 +309,28 @@ a {
 .button-48 span {
   z-index: 1;
   position: relative;
+}
+
+.card {
+  background-color: #39ff14;
+  border-width: 2.5px;
+  border-color: #39ff14;
+}
+
+.card-body {
+  background-color: #000;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.btn {
+  background-color: #39ff14;
+  border-color: rgb(72, 0, 255);
+  border-width: 0.5px;
+  color: #000;
+  font-weight: 600;
 }
