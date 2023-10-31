@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Uni Sans Regular", sans-serif;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -197,7 +198,7 @@ hr {
 }
 
 .skillset {
-  padding: 5px 30px;
+  padding: 5px 10px;
 }
 
 .skillset h4 {
@@ -453,6 +454,11 @@ textarea {
 
 .socials-icons {
   padding: 0 10px 30px 10px;
+}
+
+.socials-icons:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 .contact-text {
